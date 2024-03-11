@@ -1,0 +1,120 @@
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divide a tela em duas colunas */
+    height: 100vh;
+}
+
+.logo{
+    width: 5px;
+}
+*{
+    font-family: Poppins,sans-serif;
+    font-weight: none; 
+}
+
+#left-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ddd; /* Fundo cinza claro */
+}
+
+#left-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+#right-section {
+    margin-right: auto;
+    width: 765px;
+    height: 532;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255); /* Fundo branco */
+}
+
+form {
+    padding: 150px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+#header-text {
+    text-align: center;
+    color: #777; /* Cor cinza claro */
+    font-size: 30px;
+    font-weight:550;
+    margin-bottom: 8px;
+}
+
+#header-text span {
+    font-weight: 550;
+    color: #ff0000; /* Cor vermelha */
+}
+
+#access-info {
+    color: lightgray; /* Cor cinza claro */
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 20px); /* Ajuste para acomodar o ícone */
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+button {
+    
+    display: flex;
+    align-items: center;
+    height: 52px;
+    background-color: #ff0000; /* Cor vermelha */
+    color: #fff;
+    padding: 12px 90px;
+    border: none;
+    border-radius: 70px; /* Alterado para aspecto oval */
+    cursor: pointer;
+}
+
+#footer-text {
+    text-align: center;
+    color: #777;
+    margin-top: 16px;
+}
+
+#register-link {
+    cursor: pointer;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.additional-links {
+    color: #aaa;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.additional-links a {
+    margin: 0 8px;
+    text-decoration: none;
+}
+
+.divCheck{
+    text-align: right;
+    color: black;
+}

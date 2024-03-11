@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf6fa412bd.js"></script>
+</head>
+<body>
+    <div id="left-section">
+            <img src="imagem-edebe.svg" alt="Imagem SVG"/>
+    </div>
+
+    <div id="right-section">
+        <form>
+            <div id="header-text">Plataforma <span>edebê</span> Brasil</div>
+            <div id="access-info">digite seus dados para acessar nossa plataforma</div>
+
+        <div>
+            <i class="fas fa-envelope iEmail"></i>
+            <input type="text" required placeholder="E-mail">
+        </div>
+
+        <div>  
+            <i class="fas fa-lock iPassword"></i>
+            <input type="password" required placeholder="Senha">
+        </div>
+
+            <div class="divCheck">
+                <span>esqueceu a senha?</span>
+            </div>            
+
+            <button type="submit">Acessar a Plataforma</button>
+
+            <div id="footer-text">Não possui uma conta?<span id="register-link">Cadastrar-se</span></div>
+
+            <div class="additional-links">
+                <a href="#">Termos de Serviço</a>
+                <span>|</span>
+                <a href="#">Política de Privacidade</a>
+            </div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
