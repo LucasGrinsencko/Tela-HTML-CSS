@@ -1,19 +1,13 @@
 
 body {
+    font-family:sans-serif;
+    font-weight: normal;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide a tela em duas colunas */
+    grid-template-columns: 50% 50%; /* Divide a tela em duas colunas */
     height: 100vh;
-}
-
-.logo{
-    width: 5px;
-}
-*{
-    font-family: Poppins,sans-serif;
-    font-weight: none; 
 }
 
 #left-section {
@@ -29,7 +23,6 @@ body {
     height: auto;
     border-radius: 8px;
 }
-
 #right-section {
     margin-right: auto;
     width: 765px;
@@ -54,6 +47,8 @@ form {
     margin-bottom: 8px;
 }
 
+
+
 #header-text span {
     font-weight: 550;
     color: #ff0000; /* Cor vermelha */
@@ -66,11 +61,12 @@ form {
 }
 
 input {
-    width: calc(100% - 20px); /* Ajuste para acomodar o ícone */
+    
+    width: calc(100% - 30px); /* Ajuste para acomodar o ícone */
     padding: 10px;
     margin-bottom: 16px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 80px;
     border: 1px solid #ccc;
 }
 
@@ -79,13 +75,14 @@ input {
 }
 
 button {
-    
+    margin: auto;
+    margin-top: 50px;
     display: flex;
     align-items: center;
     height: 52px;
     background-color: #ff0000; /* Cor vermelha */
-    color: #fff;
-    padding: 12px 90px;
+    color: #ffffff;
+    padding: 4px 80px;
     border: none;
     border-radius: 70px; /* Alterado para aspecto oval */
     cursor: pointer;
@@ -104,9 +101,10 @@ button {
 }
 
 .additional-links {
+    
     color: #aaa;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .additional-links a {
@@ -117,4 +115,5 @@ button {
 .divCheck{
     text-align: right;
     color: black;
+    cursor: pointer;
 }
