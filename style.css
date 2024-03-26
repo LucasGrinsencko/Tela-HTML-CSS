@@ -11,7 +11,7 @@ body {
 }
 
 #left-section {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     padding: 20px;
@@ -27,14 +27,14 @@ body {
     margin-right: auto;
     width: 765px;
     height: 532;
-    display:flex;
+    display:block;
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255); /* Fundo branco */
 }
 
 form {
-    padding: 150px;
+    padding: 120px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
@@ -44,34 +44,58 @@ form {
     color: #777; /* Cor cinza claro */
     font-size: 30px;
     font-weight:550;
-    margin-bottom: 8px;
+    margin-bottom: 25px;
 }
 
 
 
 #header-text span {
+    margin-top: 10%;
     font-weight: 550;
     color: #ff0000; /* Cor vermelha */
 }
 
 #access-info {
     color: lightgray; /* Cor cinza claro */
-    margin-bottom: 16px;
+    margin-bottom: 30px;
     text-align: center;
 }
+div nameicons{
+    margin-top: 20px;
+    position: relative;
+}
 
-input {
-    
-    width: calc(100% - 30px); /* Ajuste para acomodar o ícone */
-    padding: 10px;
+.input-container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
     margin-bottom: 16px;
+    color: rgb(111, 111, 111);
+    
+}
+
+.absolute{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    color: rgb(111, 111, 111);
+}
+
+/* #icons3{
+    cursor: pointer;
+    position: absolute;
+    right: 9%;
+
+} */
+input {
+    text-align: left;
+    width: 100%; /* Ajuste para acomodar o ícone */
+    padding: 10px 40px 10px 20px;
     box-sizing: border-box;
     border-radius: 80px;
     border: 1px solid #ccc;
-}
-
-.icon {
-    margin-right: 10px;
+    position: relative;
 }
 
 button {
@@ -104,7 +128,7 @@ button {
     
     color: #aaa;
     text-align: center;
-    margin-top: 300px;
+    margin-top: 240px;
 }
 
 .additional-links a {
@@ -113,7 +137,8 @@ button {
 }
 
 .divCheck{
+    margin-top: 10px;
     text-align: right;
-    color: black;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -21,17 +21,19 @@
         <form>
             <div id="header-text">Plataforma <span>edebê</span> Brasil</div>
             <div id="access-info">digite seus dados para acessar nossa plataforma</div>
+            
+        <div id="nameicons">
+            <div class="input-container">
+                <i class="fas fa-envelope iEmail"></i>
+                <input type="text" required placeholder="E-mail">
+            </div>
 
-        <div>
-            <i class="fas fa-envelope iEmail"></i>
-            <input type="text" required placeholder="E-mail">
-        </div>
-
-        <div>  
-            <i class="fas fa-lock iPassword"></i>
-            <input type="password" required placeholder="Senha">
-        </div>
-
+            <div class="input-container">  
+                <i class="fas fa-lock iPassword"></i>
+                <input type="password" required placeholder="Senha" id="input-password">
+                <i class="bi bi-eye-slash-fill absolute" id="eye-button" onclick="mostrarSenha()"></i>
+            </div>
+        </div>  
             <div class="divCheck">
                 <span id="link">esqueceu a senha?</span>
             </div>            
